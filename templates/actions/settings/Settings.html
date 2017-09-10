@@ -1,0 +1,31 @@
+<style>
+</style>
+
+<h1>RSS Reader</h1>
+<p>
+    Укажите ссылку на RSS feed. К примеру http://feeds.feedburner.com/webasystcom/ru
+</p>
+<br />
+
+<form action="?module=plugins&id=rssreader&action=save" method="post" id="plugins-settings-form">
+
+    <div class="field">
+        <div class="name">
+            Feed url
+        </div>
+        <div class="value float">
+            <input type="text" name="shop_rssreader[feed_url]" value="{$settings.feed_url|escape}" /><br /><br />
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="field">
+        <div class="value submit">
+            <input type="submit" class="button green" value="Сохранить">
+        <span id="plugins-settings-form-status" style="display:none">
+            <i style="vertical-align:middle" class="icon16 yes"></i> [`Saved`]
+        </span>
+        </div>
+    </div>
+
+</form>
