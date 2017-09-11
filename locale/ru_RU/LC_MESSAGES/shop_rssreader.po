@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shop/plugins/rssreader\n"
+"POT-Creation-Date: 2017-09-11 12:18+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: shop/plugins/rssreader\n"
+"Language-Team: shop/plugins/rssreader\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((((n%10)==1)&&((n%100)!=11))?(0):(((((n%10)>=2)&&((n%10)<=4))&&(((n%100)<10)||((n%100)>=20)))?(1):2));\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:20
+msgid "Enable plugin"
+msgstr "Включить плагин"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:29
+msgid "Enable default feed"
+msgstr "Включить дефолтовый фид"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:30
+msgid "is output to home.html"
+msgstr "выводится в home.html"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:39
+msgid "Feed url"
+msgstr "Ссылка на фид"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:48
+msgid "Show posts"
+msgstr "Показывать записей"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:56
+msgid "Instructions for using the plugin"
+msgstr "Инструкция по использованию плагина"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:59
+msgid "By default the plugin is disabled."
+msgstr "По умолчанию плагин отключен."
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:60
+msgid "First of all, set mark «Enable plugin»."
+msgstr "В начале включите плагин. Переключатель вверху страницы."
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:61
+msgid "The default feed is outputted in a home.html as:"
+msgstr "Фид по умолчанию - выводится вверху шаблона home.html как:"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:70
+msgid "If you need to put the output in your place, use:"
+msgstr "Если вы хотите вывести фид в каком либо другом месте шаблона, используйте следующий код:"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:74
+msgid "First param - feed url"
+msgstr "Первый параметр ссылка на фид"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:75
+msgid "2nd param - how many records to show"
+msgstr "Второй параметр - количество записей для отображения"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:76
+msgid "3rd param - before list"
+msgstr "Третий параметр код перед списком"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:77
+msgid "4rd param - after list"
+msgstr "Четвертый параметр код после списка"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:78
+msgid "5rd param - record mask"
+msgstr "Пятый параметр строка новости"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:80
+msgid "You can use the following macros in record:"
+msgstr "Вы можете использовать следующие макросы при формировании строки новости:"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:81
+msgid "link to news"
+msgstr "сылка на новость"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:82
+msgid "news date"
+msgstr "дата публикации новости"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:83
+msgid "news title"
+msgstr "заголовок новости"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:84
+msgid "full news text (with images)"
+msgstr "полный текст новости"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:93
+msgid "Save"
+msgstr "Сохранить"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:95
+#: /wa-apps/shop/plugins/rssreader/lib/actions/shopRssreaderPluginBackend.actions.php:24
+msgid "Saved"
+msgstr "Записано"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:106
+msgid "On"
+msgstr "вкл"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:107
+msgid "Off"
+msgstr "выкл"
+
+#: /wa-apps/shop/plugins/rssreader/lib/config/plugin.php:5
+msgid "Allows you to display RSS feed on your site"
+msgstr "Позволяет отображать RSS фид на сайте"

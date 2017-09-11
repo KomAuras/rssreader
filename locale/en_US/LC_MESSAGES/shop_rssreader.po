@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shop/plugins/rssreader\n"
+"POT-Creation-Date: 2017-09-11 12:18+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator:  shop/plugins/rssreader\n"
+"Language-Team:  shop/plugins/rssreader\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: en_US\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:20
+msgid "Enable plugin"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:29
+msgid "Enable default feed"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:30
+msgid "is output to home.html"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:39
+msgid "Feed url"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:48
+msgid "Show posts"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:56
+msgid "Instructions for using the plugin"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:59
+msgid "By default the plugin is disabled."
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:60
+msgid "First of all, set mark «Enable plugin»."
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:61
+msgid "The default feed is outputted in a home.html as:"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:70
+msgid "If you need to put the output in your place, use:"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:74
+msgid "First param - feed url"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:75
+msgid "2nd param - how many records to show"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:76
+msgid "3rd param - before list"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:77
+msgid "4rd param - after list"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:78
+msgid "5rd param - record mask"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:80
+msgid "You can use the following macros in record:"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:81
+msgid "link to news"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:82
+msgid "news date"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:83
+msgid "news title"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:84
+msgid "full news text (with images)"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:93
+msgid "Save"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:95
+#: /wa-apps/shop/plugins/rssreader/lib/actions/shopRssreaderPluginBackend.actions.php:24
+msgid "Saved"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:106
+msgid "On"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:107
+msgid "Off"
+msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/lib/config/plugin.php:5
+msgid "Allows you to display RSS feed on your site"
+msgstr ""
