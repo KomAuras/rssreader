@@ -54,7 +54,6 @@ class shopRssreaderPlugin extends shopPlugin
             }
         }
 
-        $file_or_url = $rssreader->resolveFile($file_or_url);
         if (!($x = simplexml_load_file($file_or_url)))
             return '';
 
@@ -88,16 +87,6 @@ class shopRssreaderPlugin extends shopPlugin
             }
         }
         return $feed_text;
-    }
-
-    private function resolveFile($file_or_url)
-    {
-        if (!preg_match('|^https?:|', $file_or_url))
-            $feed_uri = $_SERVER['DOCUMENT_ROOT'] . '/shared/xml/' . $file_or_url;
-        else
-            $feed_uri = $file_or_url;
-
-        return $feed_uri;
     }
 
     private function summarizeText($summary)
