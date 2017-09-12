@@ -116,3 +116,7 @@ msgstr "выкл"
 #: /wa-apps/shop/plugins/rssreader/lib/config/plugin.php:5
 msgid "Allows you to display RSS feed on your site"
 msgstr "Позволяет отображать RSS фид на сайте"
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:100
+msgid "text truncated to 100 characters and ..."
+msgstr "текст усеченный до 100 символов + ..."

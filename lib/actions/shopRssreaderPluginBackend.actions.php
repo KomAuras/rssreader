@@ -19,7 +19,7 @@ class shopRssreaderPluginBackendActions extends waJsonActions
             );
 
             wa()->getplugin('rssreader')->savesettings($settings);
-            $this->response = array('msg' => _wp('saved'));
+            $this->response = array('msg' => _wp('Saved'));
 
         } catch (Exception $e) {
             $this->setError($e->getMessage());

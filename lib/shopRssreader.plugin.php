@@ -105,7 +105,7 @@ class shopRssreaderPlugin extends shopPlugin
         $summary = strip_tags($summary);
         $max_len = 100;
         if (strlen($summary) > $max_len)
-            $summary = substr($summary, 0, $max_len) . '...';
+            $summary = mb_substr($summary, 0, $max_len) . '...';
         return $summary;
     }
 }
