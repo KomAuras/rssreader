@@ -118,3 +118,8 @@ msgstr ""
 #: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:100
 msgid "text truncated to 100 characters and ..."
 msgstr ""
+
+#: /wa-apps/shop/plugins/rssreader/templates/actions/settings/Settings.html:87
+#: /wa-apps/shop/plugins/rssreader/lib/config/settings.php:6
+msgid "http://feeds.feedburner.com/webasystcom"
+msgstr ""
