@@ -50,7 +50,7 @@ class shopRssreaderPlugin extends shopPlugin
             $cache_key = 'rss_' . str_replace('/', '_', $file_or_url);
             $feed_text = $cache->get($cache_key, 'rss');
             if ($feed_text !== null) {
-                return $file_or_url . $feed_text;
+                return $feed_text;
             }
         }
 
