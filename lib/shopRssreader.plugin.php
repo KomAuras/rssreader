@@ -54,8 +54,19 @@ class shopRssreaderPlugin extends shopPlugin
             }
         }
 
-        if (!($x = simplexml_load_file($file_or_url)))
-            return '';
+        if (ini_get('allow_url_fopen')) {
+            if (!($x = simplexml_load_file($file_or_url))) {
+                return '';
+            }
+        } else {
+            $ch = curl_init($file_or_url);    
+            curl_setopt  ($ch, CURLOPT_HEADER, false); 
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);    
+            $src = curl_exec($ch);    
+            if (!($x = simplexml_load_string($src))) {
+                return '';
+            }
+        }
 
         unset($rssreader->posts);
         foreach ($x->channel->item as $item) {
