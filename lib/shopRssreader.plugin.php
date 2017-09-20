@@ -1,14 +1,5 @@
 <?php
 
-class BlogPost
-{
-    var $date;
-    var $ts;
-    var $link;
-    var $title;
-    var $text;
-}
-
 class shopRssreaderPlugin extends shopPlugin
 {
     private $posts = array();
@@ -70,7 +61,7 @@ class shopRssreaderPlugin extends shopPlugin
 
         unset($rssreader->posts);
         foreach ($x->channel->item as $item) {
-            $post = new BlogPost();
+            $post = new shopBlogpostPluginRssreader();
             $post->date = (string)$item->pubDate;
             $post->ts = strtotime($item->pubDate);
             $post->link = (string)$item->link;
