@@ -1,6 +1,6 @@
 <?php
 
-class shopBlogpostPluginRssreader
+class shopRssreaderBlogpost
 {
     var $date;
     var $ts;

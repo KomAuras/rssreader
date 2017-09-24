@@ -61,7 +61,7 @@ class shopRssreaderPlugin extends shopPlugin
 
         unset($rssreader->posts);
         foreach ($x->channel->item as $item) {
-            $post = new shopBlogpostPluginRssreader();
+            $post = new shopRssreaderBlogpost();
             $post->date = (string)$item->pubDate;
             $post->ts = strtotime($item->pubDate);
             $post->link = (string)$item->link;
